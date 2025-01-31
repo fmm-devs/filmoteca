@@ -24,14 +24,14 @@
       </TableView>
       <AnchorPane prefHeight="550.0" prefWidth="699.0">
          <children>
-            <ButtonBar layoutX="31.0" layoutY="444.0" prefHeight="40.0" prefWidth="535.0">
+            <ButtonBar layoutX="14.0" layoutY="416.0" prefHeight="40.0" prefWidth="576.0">
               <buttons>
                 <Button mnemonicParsing="false" onAction="#handlerNueva" styleClass="boton-anadir" text="Añadir nueva película" />
                   <Button layoutX="125.0" layoutY="18.0" mnemonicParsing="false" onAction="#handlerModificar" styleClass="boton-modificar" text="Modificar película" />
                   <Button layoutX="125.0" layoutY="18.0" mnemonicParsing="false" onAction="#handlerEliminar" styleClass="boton-eliminar" text="Eliminar película" />
               </buttons>
             </ButtonBar>
-            <Button layoutX="552.0" layoutY="518.0" mnemonicParsing="false" onAction="#handlerCerrar" styleClass="boton-cerrar" text="Cerrar" />
+            <Button layoutX="558.0" layoutY="518.0" mnemonicParsing="false" onAction="#handlerCerrar" styleClass="boton-cerrar" text="Cerrar" />
             <ImageView fx:id="img" fitHeight="322.0" fitWidth="209.0" layoutX="31.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true" />
             <GridPane layoutX="265.0" layoutY="42.0" prefHeight="256.0" prefWidth="330.0">
               <columnConstraints>

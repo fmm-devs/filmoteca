@@ -2,7 +2,6 @@ package dam.alumno.filmoteca;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import javafx.application.Application;
-import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -10,7 +9,6 @@ import javafx.stage.Stage;
 
 import java.io.*;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class MainApp extends Application {
@@ -53,7 +51,7 @@ public class MainApp extends Application {
         ObjectMapper objectMapper = new ObjectMapper();
 
         try {
-            objectMapper.writeValue(new File("datos/peliculas2.json"),listaPeliculas);
+            objectMapper.writeValue(new File("datos/peliculas.json"),listaPeliculas);
         }catch (IOException e) {
             System.out.println("ERROR no se ha podido guardar los datos de la aplicación");
             e.printStackTrace();
